@@ -8,15 +8,15 @@ int main(){
   system("cls");
 	int n,i,sum;
 	sum=0;
-	printf("Введите количество символов:");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±ГЁГ¬ГўГ®Г«Г®Гў:");
 	scanf("%d",&n);
 	char *s;
-	printf("Введите строку:");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ Г±ГІГ°Г®ГЄГі:");
 	s = (char*)malloc(n);
 	scanf("%s", s);
 	for (i = 0; s[i]!='\0';i++){
 		if (isalpha(s[i])){
-	
+	putchar(tolower(s[i]));
 		}
 		else{
 		
